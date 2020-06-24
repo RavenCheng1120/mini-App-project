@@ -20,3 +20,18 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+// Stateful widgets maintain state that might change during the lifetime of the widget
+class RandomWords extends StatefulWidget {
+  @override
+  _RandomWordsState createState() => _RandomWordsState();
+}
+
+class _RandomWordsState extends State<RandomWords> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      
+    );
+  }
+}
